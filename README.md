@@ -5,5 +5,5 @@
 2. look at the css file
 3. make some reverse engineering and construct the scss file to compile the resulting css file 
 ## HINTS
-only two colours and two mesures are defined...
-Use variables, nesting, parenting, partials and operations
+- only two colours and two mesures are defined...
+- Use variables, nesting, parenting, partials and operations
