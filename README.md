@@ -1,2 +1,2 @@
 # sassme
-learning sass
+Fork and clone the repository
