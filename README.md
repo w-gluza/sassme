@@ -4,5 +4,6 @@
 - Then clone it.
 2. look at the css file
 3. make some reverse engineering and construct the scss file to compile the resulting css file 
-OBS! only two colours and two mesures are defined...
+## HINTS
+only two colours and two mesures are defined...
 Use variables, nesting, parenting, partials and operations
