@@ -1,0 +1,14 @@
+{
+  "name": "sassme-wiola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "my-sass": "node-sass newstyle.scss newstyle.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

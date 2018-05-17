@@ -1,0 +1,50 @@
+@import "presets";
+
+$myfont: Helvetica, sans-serif;
+$lightcolor: #d3a91f;
+$darkcolor:  #797979;
+$width: 100%;
+$value: 10px;
+
+body {
+    background: $lightcolor;
+  }
+
+  ul {
+    list-style: none;
+    li{
+      margin: 0;
+      display: inline;
+        a{
+          text-decoration: none;
+          color: $lightcolor;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+main {
+    width: $width*.8;
+    margin: 0 auto;
+    background: lighten($lightcolor, 10%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: $value;
+    padding: $value;
+}
+
+div, footer, .myContainers {
+  background: $darkcolor;
+  padding: $value*.5;
+}
+
+.myContainers {
+  color: darken($darkcolor, 50%);
+}
+
+footer {
+  padding: $value*2;
+  margin-top: $value*2;
+}
